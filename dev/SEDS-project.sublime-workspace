@@ -1,0 +1,693 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-top"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"text-deco",
+				"text-decoration-style"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"backro",
+				"background-color"
+			],
+			[
+				"contact",
+				"contact_e"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/style.css",
+			"settings":
+			{
+				"buffer_size": 13370,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/about.html",
+			"settings":
+			{
+				"buffer_size": 7414,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/archive.html",
+			"settings":
+			{
+				"buffer_size": 3135,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/events.html",
+			"settings":
+			{
+				"buffer_size": 3228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/index.html",
+			"settings":
+			{
+				"buffer_size": 4101,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/membership.html",
+			"settings":
+			{
+				"buffer_size": 5458,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/projects.html",
+			"settings":
+			{
+				"buffer_size": 4981,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sean/Drive/web/SEDS/archive/2017-09-22 GBM.pptx",
+			"settings":
+			{
+				"buffer_size": 32530617,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 276.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"mate",
+				"Material Theme: Configuration"
+			],
+			[
+				"sublime",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 197.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Sean/Drive/web/SEDS",
+		"/C/Users/Sean/Drive/web/SEDS/archive"
+	],
+	"file_history":
+	[
+		"/C/Users/Sean/Drive/web/SEDS/dev/_project-seds.sublime-project",
+		"/C/Users/Sean/Drive/web/SEDS/style.css",
+		"/C/Users/Sean/Drive/web/SpaceVision/SEDS SpaceVision 2017 - University of Central Florida.html",
+		"/C/Users/Sean/Drive/web/SEDS/archive.html",
+		"/C/Users/Sean/Drive/web/SEDS/about.html",
+		"/C/Users/Sean/Drive/web/SEDS/events.html",
+		"/C/Users/Sean/Drive/web/SEDS/index.html",
+		"/C/Users/Sean/Drive/web/SEDS/membership.html",
+		"/C/Users/Sean/Drive/web/SEDS/projects.html",
+		"/C/Users/Sean/Drive/web/SpaceVision/style.css",
+		"/C/Users/Sean/Drive/web/SpaceVision/SEDS SpaceVision 2017 - University of Central Florida_files/carousel.css",
+		"/C/Users/Sean/Drive/web/tbp/index.html",
+		"/C/Users/Sean/Drive/web/SEDS/dev/_project-seds.sublime-workspace",
+		"/C/Users/Sean/Drive/web/tbp/tbp2/css/style.css",
+		"/C/Users/Sean/Drive/tbp/tbp2/index.html",
+		"/C/Users/Sean/Drive/tbp/tbp2/css/freelancer.css",
+		"/C/Users/Sean/Drive/tbp/tbp2/css/style.css",
+		"/C/Users/Sean/Drive/tbp/css/style.css",
+		"/C/Users/Sean/Drive/tbp/tbp2/css/freelancer.min.css",
+		"/C/Users/Sean/Drive/tbp/startbootstrap-freelancer-gh-pages/README.md",
+		"/C/Users/Sean/Drive/tbp/index.html",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/index.html",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/style.css",
+		"/C/Users/Sean/Drive/tbp/css/bootstrap.css",
+		"/C/Users/Sean/Drive/tbp/css/bootstrap.min.css",
+		"/C/Users/Sean/Drive/tbp/bootstrap-3.3.7-dist/bootstrap.css",
+		"/C/Users/Sean/Drive/tbp/bootstrap-3.3.7-dist/index.html",
+		"/C/Users/Sean/Drive/tbp/bootstrap-3.3.7-dist/template.html",
+		"/C/Users/Sean/Drive/dev/Templates/index.html",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/events.html",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/perfume/wp-config-sample.php",
+		"/C/xampp/htdocs/evil/home.php",
+		"/C/xampp/htdocs/evil/Style.css",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/about.html",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/projects.html",
+		"/C/Users/Sean/Drive/SEDS/SEDS1/membership.html",
+		"/C/Users/Sean/Drive/SEDS/Cambridge Corner/style.css",
+		"/C/Users/Sean/Drive/SEDS/Cambridge Corner/index.html",
+		"/C/Users/Sean/Desktop/test.tex",
+		"/C/Users/Sean/PycharmProjects/NAPS/classification/feature_extractor.py",
+		"/C/Users/Sean/PycharmProjects/NAPS/classification/ex.txt",
+		"/C/Users/Sean/PycharmProjects/NAPS/classification/naivebayes.py",
+		"/C/Users/Sean/PycharmProjects/NAPS/classification/classifier.py",
+		"/C/Users/Sean/Drive/Prog/ud851-Exercises/Lesson01-Favorite-Toys/T01.01-Solution-CreateLayout/app/src/main/java/com/example/android/favoritetoys/MainActivity.java",
+		"/C/xampp/htdocs/evil/new_org.php",
+		"/C/xampp/htdocs/evil/organizations.php",
+		"/C/xampp/htdocs/evil/functions.php",
+		"/C/xampp/htdocs/evil/eventdb.sql",
+		"/C/xampp/htdocs/evil/schools.php",
+		"/C/xampp/htdocs/evil/new_event.php",
+		"/C/xampp/htdocs/evil/events.php",
+		"/C/xampp/htdocs/evil/header.php",
+		"/C/xampp/htdocs/evil/validation.php",
+		"/C/xampp/htdocs/evil/footer.php",
+		"/C/xampp/htdocs/evil/login.php",
+		"/C/xampp/htdocs/evil/logout.php",
+		"/C/Users/Sean/Drive/Backup/Cambridge Corner/style.css",
+		"/C/xampp/htdocs/evil/script.js",
+		"/C/xampp/htdocs/evil/edit_comment.php",
+		"/C/xampp/htdocs/evil/signup.php",
+		"/C/xampp/htdocs/evil/org.php",
+		"/C/Users/Sean/PycharmProjects/NAPS/NAPS/urls.py",
+		"/C/xampp/htdocs/evil/new_school.php",
+		"/C/xampp/htdocs/evil/index.cshtml",
+		"/C/xampp/htdocs/evil/orgs.php",
+		"/C/xampp/htdocs/evil/events.php~",
+		"/C/xampp/htdocs/evil/upload.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li",
+			"transition"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Sean/Drive/web/SEDS/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13370,
+						"regions":
+						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/dot.png",
+								"regions":
+								[
+									[
+										3049,
+										3049
+									]
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								3497,
+								3497
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4956.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Sean/Drive/web/SEDS/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1304,
+								1304
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Sean/Drive/web/SEDS/archive.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Sean/Drive/web/SEDS/events.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								949
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Sean/Drive/web/SEDS/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								1560
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Sean/Drive/web/SEDS/membership.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4018,
+								4018
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2538.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Sean/Drive/web/SEDS/projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1250,
+								1250
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Sean/Drive/web/SEDS/archive/2017-09-22 GBM.pptx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 32530617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SEDS-project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proj",
+				"projects.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"inde",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\index.html"
+			],
+			[
+				"st",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\style.css"
+			],
+			[
+				"style",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\style.css"
+			],
+			[
+				"membe",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\membership.html"
+			],
+			[
+				"about",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\about.html"
+			],
+			[
+				"sty",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\style.css"
+			],
+			[
+				"mem",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\membership.html"
+			],
+			[
+				"css",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\style.css"
+			],
+			[
+				"membership",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\membership.html"
+			],
+			[
+				"sy",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\style.css"
+			],
+			[
+				"in",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\index.html"
+			],
+			[
+				"me",
+				"C:\\Users\\Sean\\Drive\\web\\SEDS\\membership.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
