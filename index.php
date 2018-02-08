@@ -29,7 +29,7 @@
 				<h3>Meetings</h3>
 					<p>Meetings are held every other Friday at 4:30pm in EGN2-203.</p>
 					<br />
-					<p>See the <a href="events.php">calendar</a> for more events <a href="https://ucf.us8.list-manage.com/subscribe?u=371c61cbec99cee1a10d785eb&id=76ac33e57e">subscribe to the newsletter</a> for updates.</p>
+					<p>See the <a href="events.php">calendar</a> for more events and <a href="https://ucf.us8.list-manage.com/subscribe?u=371c61cbec99cee1a10d785eb&id=76ac33e57e">subscribe to the newsletter</a> for updates.</p>
 				</div>	
 			</div>
 		</div>

@@ -13,7 +13,7 @@
 		<a class="button" href="https://goo.gl/forms/TtUp62bOIgTey9n33">MEMBERSHIP FORM</a>
 
 		<h2>2. Pay Dues</h2>
-		<p>Annual membership dues can be paid through PayPal or in-person at meetings or office hours (see <a href="events.html">event calendar</a> for office hours in ENG1-140). Membership is good for one year from the time the form is submitted and the payment is made in full. Options are below: </p>
+		<p>Annual membership dues can be paid through PayPal or in-person at meetings or office hours (see <a href="events.php">event calendar</a> for office hours in ENG1-140). Membership is good for one year from the time the form is submitted and the payment is made in full. Options are below: </p>
 		<!--<table>
 			<thead>
 				<tr>

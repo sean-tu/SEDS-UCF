@@ -11,6 +11,11 @@
 				<h2>Meeting Files</h2>
 				<iframe src="https://drive.google.com/embeddedfolderview?id=0B_nin7aFZsJaVkNONHprbnpsY3c#list" style="width:100%; min-height:10em; border:0;"></iframe>
 				<br>
+
+				<h2>Newsletters</h2>				
+				<p><a href="https://us8.campaign-archive.com/home/?u=371c61cbec99cee1a10d785eb&id=76ac33e57e">
+SEDS-UCF Newsletter Archive</a>. If you haven't already, <a href="https://ucf.us8.list-manage.com/subscribe?u=371c61cbec99cee1a10d785eb&id=76ac33e57e">subscribe to the newsletter for email updates.</a></p>
+				<br>
 			</div> <!-- END CONTENT-WRAP -->
 
 		</div>		
