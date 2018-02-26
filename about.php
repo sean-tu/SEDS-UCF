@@ -17,7 +17,7 @@
 				<h2>Why Join?</h2>
 				<p>SEDS can provide an organized pathway for you to begin space related projects and give you a chance to break away from the usual class work. You can also use SEDS as a stepping stone to a space-related career. Being actively involved in SEDS can put you in touch with many members of the space, technology, and education community and will allow you to develop the experience necessary to take leadership roles in your future career, whatever that may be. <a href="membership.php">Become a SEDS member now.</a></p>
 
-				<h2>Officers</h2>
+				<h2 id="officers">Officers</h2>
 				<div class="full-width">
 					<table>
 
