@@ -1,0 +1,35 @@
+table {
+  background:#C9E0F7;
+  margin:1em auto;
+  vertical-align:center;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  overflow: scroll;
+}
+
+tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background:#f1f5fb;
+}
+
+
+th, td {
+  min-width:3em;
+  padding:.6em .8em;
+}
+
+th {
+  font-weight:bold;
+  background:#063154;
+  color:white;
+
+}
+
+td a {
+  color:#ff8300;
+  font-weight:bold;
+}

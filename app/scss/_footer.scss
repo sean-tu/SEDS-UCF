@@ -1,0 +1,60 @@
+/* FOOTER */
+
+footer {
+  background:#181c1f;
+  /*background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;*/
+  box-sizing: border-box;
+  min-height:40px;
+  position:relative;
+  bottom:0;
+  overflow:hidden;
+  margin: 2em 0 0 0;
+  width:100%;
+  padding:1%;
+  font-size:.9em;
+  display:block;
+  float:left;
+  color:white;
+}
+
+footer a, .emphasis {
+  color:#FFC904;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover, .emphasis:hover {
+  color:#ff8300;
+}
+
+#footerwrap {
+  max-width:960px;
+  margin: auto;
+}
+
+.footerblock {
+  width:33%;
+  float:left;
+  padding-left:4%;
+}
+
+footer p, footer a {
+  font-family:'Abel', sans-serif;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left:0;
+}
+
+footer li {
+  padding:0;
+  text-indent:0;
+}

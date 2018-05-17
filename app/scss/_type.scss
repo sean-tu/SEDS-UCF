@@ -1,0 +1,129 @@
+p, #main-content a {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color:#ff8300;
+  /*font-weight:bold;*/
+  /*text-decoration: none;*/
+  transition: color 250ms ease-in-out;
+}
+
+a:hover {
+  color:#FFC904;
+}
+
+.special {
+  font-weight:bold;
+}
+
+/* HEADERS */
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.7em;
+  text-align: left;
+  color:#063154;
+  margin: 1.1em 0 .6em 0;
+  text-transform:uppercase;
+  line-height: 1.2;
+
+  display: inline-block;
+  position: relative;
+}
+
+h2:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 2em;
+  height: 0;
+  border-bottom: 4px solid #f5c62c;
+}
+
+h2:first-child {
+  margin-top:.2em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  color:#063154;
+  margin: .2em 0 .2em 0;
+  text-transform:uppercase;
+}
+
+.subtitle {
+  display: block;
+  font-weight: bold;
+  color:#526779;
+  font-style:italic;
+  padding:8px 0 0 0;
+  margin:0;
+  font-size:1.2em;
+  text-transform:none;
+  position:relative;
+  bottom:.9em;
+  line-height: 1.2;
+}
+
+/*h3 {
+	letter-spacing:1.5px;
+	text-transform:uppercase;
+
+	background:	#1c65a1;
+	background: -o-linear-gradient(bottom, #1c65a1 5%, #16528e 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1c65a1), color-stop(1, #16528e) );
+	background: -moz-linear-gradient( center top, #1c65a1 5%, #16528e 100% );
+
+	color:white;
+	text-align:center;
+	padding:10px 0;
+	margin: 1em 2em;
+	font-weight: bold;
+}*/
+
+h4 {
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom:-.4em;
+}
+
+p.contrast {
+  background:#FFC904;
+  color:#181c1f;
+  padding:.3em;
+  margin:0;
+  margin-bottom: .5em;
+  font-size:.9em;
+  border-radius:10px;
+  font-weight: bold;
+  border:1px solid rgba(24, 29, 31, 0.27);
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.centered {
+  text-align:center;
+}
+
+h6 {
+
+  font-size:1.2em;
+  text-transform:none;
+  position:relative;
+  bottom:.9em;
+  display:inline;
+  border-radius: 3px;
+}
+
+
+h5 {
+  font-weight:bold;
+}

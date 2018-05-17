@@ -1,0 +1,72 @@
+.notice {
+  z-index:100;
+  display:block;
+  position:fixed;
+  /*top:-25px;*/
+  top:0;
+  right:0;
+  left:0;
+  overflow:hidden;
+  width:100%;
+  /*background:#ff8300;*/
+  background:#f5c62c;
+  background: rgba(245, 198, 44, 0.94);
+  box-shadow: 0 0 5px black;
+  color:#181c1f;
+  text-align:center;
+  text-decoration: none;
+  padding: .2em 0;
+  animation-name: notice;
+  animation-duration: 2s;
+  transition: all 300ms ease-in-out;
+}
+
+.notice-text {
+  font-size: 1em;
+  font-family: 'Abel', sans-serif;
+}
+
+.notice-text:after {
+  display:inline-block;
+  content: url('images/rocket-emoji-small.png');
+  padding:0 .5em;
+  position:relative;
+  top:.2em;
+}
+
+.notice-text:before  {
+  display:inline-block;
+  content: url('images/rocket-emoji-small.png');
+  padding:0 .5em;
+  position:relative;
+  top:.2em;
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: 'FlipH';
+  -ms-filter: "FlipH";
+}
+
+.notice:hover {
+  text-decoration:none;
+  color: black;
+  padding:.4em 0;
+  background: rgba(245, 198, 44, 0.97);
+}
+
+/*.notice:hover:after {
+	content:'National SEDS Conference';
+	display:block;
+	font-size:.8em;
+	line-height:.8em;
+	position: relative;
+	margin:0;
+	padding:0 0 .1em 0;
+}*/
+
+@keyframes notice {
+  from { top:-32px; background: rgba(245, 198, 44, 0.54);}
+  to { top: 0; }
+}
