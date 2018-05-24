@@ -11,7 +11,11 @@
 
 //Colors
 $background:  #063154;
+$light-background: #f5f5f5;
+$dark-background: #181c1f;
+$primary: #ffc904;
 $accent: #ff8300;
+$light-accent: #1c65A1;
 
 // Page sizing
 $max-width: 1080px;
@@ -28,4 +32,10 @@ $line-height: 1.7;
 
 @mixin transition {
   transition: all .2s ease-in-out;
+}
+
+// Utils
+.fluid {
+  width: 100%;
+  margin: 0;
 }

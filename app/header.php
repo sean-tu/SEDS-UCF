@@ -9,6 +9,8 @@
 	<link rel="icon" href="images/SEDS-favicon.png" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="utf-8" />
+
+    <script type="text/javascript" src="js/tabs.js" />
 </head>
 
 <body>

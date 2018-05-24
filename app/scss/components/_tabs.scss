@@ -1,0 +1,34 @@
+@import "base";
+
+$tab-background: #063154;
+
+.tabs {
+  overflow:hidden;
+  background:inherit;
+  border-bottom:1px solid $tab-background;
+}
+
+.tab-link {
+  background: $light-accent;
+  border: none;
+  border-top-left-radius: .4em;
+  border-top-right-radius: .4em;
+  font-size:1em;
+  padding: .3em .5em;
+}
+
+.tab-link:hover {
+  background: $tab-background;
+}
+
+.active {
+  background: $tab-background;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 0;
+  background: $tab-background;
+  padding: .2em;
+  border:3px solid $tab-background;
+}

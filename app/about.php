@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>	
+<?php include_once("header.php"); ?>
 
 	<div id="main">
 		<div class="slide" id="aboutpage">
@@ -7,7 +7,7 @@
             </div>
 		</div>
 
-		<div id="main-content">
+		<div id="main-content" onload="initTabs()">
 			<div class="content-wrap">
 	
 				<h2>SEDS Mission Statement</h2>
@@ -20,8 +20,17 @@
 				<p>SEDS can provide an organized pathway for you to begin space related projects and give you a chance to break away from the usual class work. You can also use SEDS as a stepping stone to a space-related career. Being actively involved in SEDS can put you in touch with many members of the space, technology, and education community and will allow you to develop the experience necessary to take leadership roles in your future career, whatever that may be. <a href="membership.php">Become a SEDS member now.</a></p>
 
 				<h2>Officers</h2>
-				<div class="full-width">
-					<table>
+                <div class="tabs">
+                    <button class="tab-link" name='officers-2018' onclick="openTab(event, 'officers-2018')">2018-2019</button>
+                    <button class="tab-link" name='officers-2017' onclick="openTab(event, 'officers-2017')">2017-2018</button>
+                </div>
+
+                <div class="tab-content" id="officers-2018">
+                    <h4>2018 officers here</h4>
+                </div>
+
+                <div class="tab-content" id="officers-2017">
+					<table class="fluid">
 
 						<thead>
 							<tr>	
@@ -98,7 +107,7 @@
 						</tbody>
 						
 					</table>
-				</div>
+                </div>
 
 				<h2>History</h2>
 				<p>Students for the Exploration and Development of Space was founded in 1980 at MIT and Princeton and consists of an international group of high school, undergraduate, and graduate students from a diverse range of educational backgrounds who are working to promote space as a whole. SEDS is a chapter based organization with chapters throughout the United States, Canada, United Kingdom, Asia, Latin America, and the Middle East. The permanent National Headquarters for SEDS-USA resides at MIT. Each chapter is fairly independent and coordinates activities and projects in its own area.</p>

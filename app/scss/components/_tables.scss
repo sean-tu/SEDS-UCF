@@ -5,11 +5,12 @@ table {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   overflow: scroll;
+  border: none;
 }
 
 tr {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  //border-top: 1px solid #ddd;
+  //border-bottom: 1px solid #ddd;
 }
 
 tr:nth-child(even) {
@@ -33,5 +34,3 @@ td a {
   color:#ff8300;
   font-weight:bold;
 }
-
-// Tabs
