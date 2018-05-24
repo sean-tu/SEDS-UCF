@@ -3,14 +3,16 @@
 	<div id="main">
 		
 		<div class="slide" id="projectpage">
-			<p><span class="special">Student Projects</span><br />See what SEDS members are doing this semester.</p>
+            <div class="slide-content">
+			    <p><span class="lead-text">Student Projects</span><br />See what SEDS members are doing this semester.</p>
+            </div>
 		</div>
 
 		<div id="main-content">
 			<div class="content-wrap">
 
                 <!-- Rovers -->
-                <div class="section">
+                <section class="card">
                     <img class="side" src="images/sojourner_rover.jpg" alt="Sojourner rover on Mars" />
                     <div class="post">
                         <h2>Sojourner Rover Project</h2>
@@ -20,10 +22,10 @@
                             <li><span>The objective of the project is to develop a small rover based loosely on the Sojourner rover that deployed from Pathfinder to explore Mars in 1997.</span></li>
                         </ul>
                     </div>
-                </div>
+                </section>
 
 				<!-- Hybrids -->
-				 <div class="section">
+                <section class="card">
 					<img class="side" src="images/fsgc-logo.png" alt="FSGC Logo" />
 					<div class="post">
 						<h2>FSGC Hybrid Rocket Competition</h2>
@@ -36,11 +38,11 @@
 							<li><span>More information: <a href="https://floridaspacegrant.org/programs/hybrid-motor-rocket-competition/">https://floridaspacegrant.org/programs/hybrid-motor-rocket-competition/</a></span></li>
 						</ul>
 					</div>
-				</div>
+				</section>
 
 
 				<!-- IREC -->
-				<div class="section">
+				<section class="card">
 					<img class="side" src="images/esra-insignia4.png" />
 					<div class="post">
 						<h2>IREC</h2>
@@ -54,10 +56,10 @@
 							<li><span><a href="http://www.soundingrocket.org/">http://www.soundingrocket.org/</a></span></li>
 						</ul>
 					</div>
-				</div>
+				</section>
 
 				<!-- DBL -->
-				<div class="section">
+                <section class="card">
 					<img class="side" src="images/ucf-logo.jpg" alt="UCF Logo" />
 					<div class="post">
 						<h2>Design Build Launch</h2>
@@ -69,12 +71,11 @@
 							<li><span>Contact: <a href="mailto:edelia710@knights.ucf.edu">Emily D'Elia</a></span></li>
 						</ul>
 					</div>
-				</div>
+				</section>
 
 				<!-- Satellite Design Competition -->
-				<div class="section">
+                <section class="card">
 					<img class="side" src="images/satellite.png" alt="Satellite above Earth" />
-<!--					<img class="side" src="images/sspi.jpg" alt="SSPI Logo" />-->
 					<div class="post">
 						<h2>Satellite Design Competition</h2>
 						<span class="subtitle">SEDS Competition</span>
@@ -86,12 +87,13 @@
 							<li><span><a href="http://seds.org/sspi-seds-comp/">http://seds.org/sspi-seds-comp/</a></span></li>
 						</ul>
 					</div>
-				</div>
- 
-			</div> <!-- END CONTENT-WRAP DIV -->
-		</div> <!-- END MAIN-CONTENT DIV -->
-	</div> <!-- END MAIN DIV -->
-</div><!--  END WRAP DIV  -->
+                </section>
+
+        </div>
+    </div>
+
+
+
 
 
 <?php include_once("footer.php"); ?>

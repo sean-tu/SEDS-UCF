@@ -3,7 +3,9 @@
 <div id="main">
 
 	<div class="slide" id="membershippage">
-		<p><span class="special">Become a SEDS-UCF Member</span><br />SEDS is open to students of all majors. Join now!</p>
+        <div class="slide-content">
+		    <p><span class="lead-text">Become a SEDS-UCF Member</span><br />SEDS is open to students of all majors. Join now!</p>
+        </div>
 	</div>
 
 	<div id="main-content">

@@ -1,0 +1,31 @@
+/* COLOR SCHEME
+
+	Orange stuff: #ff8300
+	Light Blue: #1C65A1
+	Dark blue: #063154
+	Dark grey: #181c1f
+	Light grey: #ced1cc;
+	Yellow (UCF gold): #FFC904;
+
+*/
+
+//Colors
+$background:  #063154;
+$accent: #ff8300;
+
+// Page sizing
+$max-width: 1080px;
+
+// Text
+$line-height: 1.7;
+
+// Mixins
+@mixin page-width {
+  width: $max-width;
+  max-width: 100%;
+  margin: auto;
+}
+
+@mixin transition {
+  transition: all .2s ease-in-out;
+}

@@ -2,7 +2,9 @@
 
 	<div id="main">
 		<div class="slide" id="aboutpage">
-			<p><span class="special">Students for the Exploration and Development of Space</span><br />University of Central Florida Chapter</p>
+            <div class="slide-content">
+			    <p><span class="lead-text">Students for the Exploration and Development of Space</span><br />University of Central Florida Chapter</p>
+            </div>
 		</div>
 
 		<div id="main-content">

@@ -3,7 +3,9 @@
 	<div id="main">
 
 		<div class="slide" id="starman">
-			<p><span class="special">SEDS Events</span><br />Be sure to follow our social media and subscribe to the newsletter for updates.</p>
+            <div class="slide-content">
+			    <p><span class="lead-text">SEDS Events</span><br />Be sure to follow our social media and subscribe to the newsletter for updates.</p>
+            </div>
 		</div>
 		
 		<div id="main-content">

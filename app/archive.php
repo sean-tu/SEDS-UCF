@@ -3,7 +3,9 @@
 	<div id="main">
 
 		<div class="slide" id="homepage">
-			<p><span class="special">SEDS-UCF Resources</span><br />Get presentations from past general meetings and other files.</p>
+            <div class="slide-content">
+			    <p><span class="lead-text">SEDS-UCF Resources</span><br />Get presentations from past general meetings and other files.</p>
+            </div>
 		</div>
 		
 		<div id="main-content">

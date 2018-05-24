@@ -1,3 +1,6 @@
+@import "base";
+
+
 p, #main-content a {
   font-family: 'Roboto', sans-serif;
 }
@@ -6,14 +9,15 @@ a {
   color:#ff8300;
   /*font-weight:bold;*/
   /*text-decoration: none;*/
-  transition: color 250ms ease-in-out;
+  //transition: color 250ms ease-in-out;
+  @include transition;
 }
 
 a:hover {
   color:#FFC904;
 }
 
-.special {
+.lead-text {
   font-weight:bold;
 }
 

@@ -3,8 +3,8 @@
 // [ ] Move #wrap to .wrapper
 // [ ] Cleanup
 
-
 @import "reset";
+@import "base";
 @import "type";
 @import "nav";
 @import "slides";
@@ -23,18 +23,19 @@ div {
 	box-sizing: border-box;
 }
 
+
 #wrap {
 	margin: 8px auto 0 auto;
-	width:960px;
-	/*width:1024px;*/
-	max-width: 100%;
+	@include page-width;
 }
 
 header {
 	position:relative;
 	height:100px;
 	display:block;
-	width:100%;
+	margin-top: 1.4em;
+	//width:100%;
+	@include page-width;
 }
 
 #logo {
@@ -73,8 +74,10 @@ header {
 	background:#f5f5f5;
 	border-radius: 0px 0px 6px 6px;
 	padding:.4em 0;
-	float:left;
-	width:100%;
+	overflow: auto;
+	//float:left;
+	//width:100%;
+	@include page-width;
 }
 
 .content-wrap {
@@ -150,7 +153,7 @@ header {
 	cursor: default;
 }
 
-div.section {
+.card {
 	display:block;
 	width:100%;
 	float:left;
@@ -162,7 +165,7 @@ div.section {
 	transition: box-shadow 200ms ease-in-out;
 }
 
-div.section:hover {
+.card:hover {
 	box-shadow: 2px 4px 13px 4px rgba(0,0,0,0.2), 0 10px 10px rgba(0,0,0,0.2);
 }
 
@@ -357,7 +360,7 @@ div.full-width {
 		display:inline-block;
 	}
 
-	div.section {
+	.card {
 		margin-bottom:1em;
 		width:100%;
 		padding:.2em;

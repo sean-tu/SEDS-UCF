@@ -1,6 +1,8 @@
+@import "base";
+
 .slide {
   width: 100%;
-  height:400px;
+  height:450px;
   margin:0;
   background:#181c1f;
   position:relative;
@@ -9,7 +11,36 @@
   background:url('../images/launch.jpg');
   background-position: center;
   background-size: cover;
+  @include page-width;
 }
+
+.slide p {
+  width:100%;
+  @include page-width;
+  font-size:1.4em;
+  line-height:1.3;
+  color:#F5F3EB;
+  padding: 2% 8% 2% 3%;
+  box-sizing: border-box;
+
+  /*	padding: 1em 4em 1em 1em;
+  //*/
+  //display:inline-block;
+  //float:left;
+}
+
+.slide-content {
+  //@include page-width;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0;
+  box-sizing: border-box;
+  background:rgba(6, 49, 84, .7);
+}
+
+// Background Images
 
 #aboutpage {
   background:url('../images/florida-space.jpg');
@@ -45,22 +76,4 @@
     background-size: 200%;
     height: 300px;
   }
-}
-
-.slide p {
-  width:100%;
-  margin:0;
-  box-sizing: border-box;
-  padding: 2% 10% 2% 3%;
-  font-size:1.3em;
-  line-height:1.3;
-  color:#F5F3EB;
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(6, 49, 84, .7);
-  /*	padding: 1em 4em 1em 1em;
-  */	display:inline-block;
-  float:left;
 }

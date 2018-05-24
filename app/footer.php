@@ -1,4 +1,3 @@
-</div> <!-- END WRAP DIV -->  
 
 <footer>
 <div id="footerwrap">
@@ -22,7 +21,7 @@
 	<div class="footerblock">
 		<h5>Connect with Us</h5>
 		<ul>
-			<li><a href="https://www.facebook.com/SEDSatUCF/"><img class="icon-small" src="images/facebook-icon.png" alt="Facebook"/>Facebook!</a></li>
+			<li><a href="https://www.facebook.com/SEDSatUCF/"><img class="icon-small" src="images/facebook-icon.png" alt="Facebook"/>Facebook</a></li>
 			<li><a href="https://twitter.com/sedsucf"><img class="icon-small" src="images/twitter-icon.png" alt="Twitter" />Twitter</a></li>
 			<li><a href="mailto:sedsucf@gmail.com"><img class="icon-small" src="images/email-icon.png" alt="Email icon"/>Email</a></li>
 		</ul>

@@ -1,7 +1,11 @@
 <?php include_once("header.php");?>
 
 <div class="slide" id="homepage">
-    <p><span class="special">Students for the Exploration and Development of Space</span><br />We are an independent, student-run organization at the University of Central Florida. <a href="about.php" class="emphasis">Learn more.</a></p>
+    <div class="slide-content">
+        <p><span class="lead-text">Students for the Exploration and Development of Space</span><br>
+            We are an independent, student-run organization at the University of Central Florida. <a href="about.php" class="emphasis">Learn more.</a>
+        </p>
+    </div>
 </div>
 
 	<div id="main">

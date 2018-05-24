@@ -1,4 +1,6 @@
 /*NAVIGATION*/
+@import "base";
+
 
 nav {
   width:76.45%;
@@ -30,10 +32,11 @@ div#navigation {
   font-weight: bold;
   text-indent:0;
   color: white;
-  font-size: 1.1em;
+  font-size: 1.18em;
   text-transform: uppercase;
   text-shadow: 1px 1px 3px #181c1f;
-  transition: color 250ms ease-in, border 250ms ease-in;
+  @include transition;
+  transition: border 250ms ease;
 }
 
 #navigation a:last-child {
