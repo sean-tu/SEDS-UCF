@@ -48,7 +48,10 @@ gulp.task('useref', function() {
 }); 
 
 // BROWSER TESTING TASKS
-var reload = browserSync.reload;
+const server = browserSync.create(); 
+var reload = function() {
+	server.reload({stream: true}); 
+}
 
 gulp.task('php', function() {
 	php.server({
@@ -76,9 +79,9 @@ gulp.task('sass', function() {
 gulp.task('watch', ['sass'], function() {
 	gulp.watch('app/scss/**/*.scss', ['sass']);
 	gulp.watch('app/**/*.html', browserSync.reload);
-	gulp.watch('app/*.php', browserSync.reload);
+	gulp.watch('app/*.php').on('change', browserSync.reload); 
 	// gulp.watch('app/**/*.php', ['reload']);
-	gulp.watch('app/js/**/*.js', browserSync.reload);
+	gulp.watch('app/js/**/*.js').on('change', browserSync.reload); 
 	
 }) 
 

@@ -10,8 +10,6 @@
 
 	<div id="main">
 
-
-		
 		<div id="main-content">
 			<div id="column-wrap">
 				
