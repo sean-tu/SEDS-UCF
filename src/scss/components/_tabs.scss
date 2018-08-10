@@ -1,35 +1,45 @@
-@import "base";
+@import "../base";
 
-$tab-background: #063154;
+$tab-background: white;
+$tab-border: $gray;
 
 .tabs {
-  overflow:hidden;
-  background:inherit;
-  border-bottom:1px solid $tab-background;
+  //overflow:hidden;
+  //background:inherit;
+  border-bottom:1px solid $tab-border;
 }
 
 .tab-link {
-  background: $light-accent;
-  border: none;
+  //background: $light-accent;
+  //color: $primary;
+  color: black;
+  position: relative;
+  //top: -1px;
+  margin-right: .2em;
+  border: 1px solid $tab-border;
+  border-bottom: 0;
   border-top-left-radius: .4em;
   border-top-right-radius: .4em;
   font-size:1em;
-  padding: .3em .5em;
-  //background: black;
+  padding: .4em .8em;
+  text-decoration: none;
+  &:hover {
+    background: lighten($tab-background, 10%);
+  }
 }
 
-.tab-link:hover {
+.tab-active {
+  font-weight: bold;
   background: $tab-background;
-}
-
-.active {
-  background: $tab-background;
-  color: white;
+  color: $primary;
+  &:hover {
+    background: $tab-background;
+  }
 }
 
 .tab-content {
   margin-top: 0;
-  background: $tab-background;
-  padding: .2em;
-  border:3px solid $tab-background;
+  padding: 0;
+  border-top: 1px solid $gray;
+
 }

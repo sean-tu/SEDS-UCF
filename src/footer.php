@@ -29,6 +29,20 @@
 
 </div>
 </footer>
-		
+
+<script type="text/javascript">
+    var pageTitle = <?php echo json_encode($pageTitle);?>;
+    console.log('title', pageTitle);
+    var nav = document.getElementById('navigation').children;
+    for (var i=0; i<nav.length; i++) {
+        if (nav[i].textContent === pageTitle) {
+            nav[i].classList.add('active');
+            break;
+        }
+    }
+
+</script>
+
+
 </body>
 </html> 

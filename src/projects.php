@@ -4,12 +4,48 @@
 		
 		<div class="slide" id="projectpage">
             <div class="slide-content">
-			    <p><span class="lead-text">Student Projects</span><br />See what SEDS members are doing this semester.</p>
+			    <p><span class="lead-text">Projects</span><br />SEDS-UCF members are always shooting for the stars. Ad astra.</p>
             </div>
 		</div>
 
 		<div id="main-content">
 			<div class="content-wrap">
+
+<!--                <aside>-->
+<!--                    <h3>Aim higher.</h3>-->
+<!--                    <video autoplay loop style="float:right; margin:.1em .5em 1em;">-->
+<!--                        <source src="images/irec_launch.mp4" type="video/mp4">-->
+<!--                    </video>-->
+<!--                    <p>-->
+<!--                        SEDS-UCF members are always shooting for the stars. After countless hours of research, design, construction, and testing, our IREC 2018 team launched their custom-built rocket <span class="emphasis">13,700 feet</span> into the air.-->
+<!--                    </p>-->
+<!--                    <p>-->
+<!--                        Ad astra.-->
+<!--                    </p>-->
+<!---->
+<!--                </aside>-->
+
+                <!-- IREC -->
+                <section class="card">
+                    <!--					<img class="side" src="images/esra-insignia4.png" />-->
+                    <video autoplay loop class="side" title="Student-made rocket launches 13,700 feet into the air!">
+                        <source src="images/irec_launch.mp4" type="video/mp4">
+                    </video>
+                    <div class="post">
+                        <h2>IREC</h2>
+                        <span class="subtitle">Intercollegiate Rocketry Engineering Competition</span>
+                        <ul>
+                            <li><span>High powered rocketry altitude competition to 10,000 or 30,000 feet.</span></li>
+                            <li><span>With a payload size of 8.8 pounds, competing rockets are typically 4 to 8 inches in diameter and 8 to 20 ft. long.</span></li>
+                            <li><span>Multistage rockets and all chemical propulsion types (solid, liquid, and hybrid) are allowed.</span></li>
+                            <li><span>Runs from August 2017 - June 2018</span></li>
+                            <li><span>Contact: <a href="mailto:zac.eller@knights.ucf.edu">Zachary Eller</a></span></li>
+                            <li><span><a href="http://www.soundingrocket.org/">http://www.soundingrocket.org/</a></span></li>
+                            <li><span>After countless hours of research, design, construction, and testing, our IREC 2018 team launched their custom-built rocket <span class="emphasis">13,700 feet</span> into the air!</span></li>
+                        </ul>
+                    </div>
+                </section>
+
 
                 <!-- Rovers -->
                 <section class="card">
@@ -36,24 +72,6 @@
 							<li><span>Runs from August 2017 - April 2018</span></li>
 							<li><span>Contact: <a href="mailto:edelia710@knights.ucf.edu">Emily D'Elia</a></span></li>
 							<li><span>More information: <a href="https://floridaspacegrant.org/programs/hybrid-motor-rocket-competition/">https://floridaspacegrant.org/programs/hybrid-motor-rocket-competition/</a></span></li>
-						</ul>
-					</div>
-				</section>
-
-
-				<!-- IREC -->
-				<section class="card">
-					<img class="side" src="images/esra-insignia4.png" />
-					<div class="post">
-						<h2>IREC</h2>
-						<span class="subtitle">Intercollegiate Rocketry Engineering Competition</span></h2>
-						<ul>
-							<li><span>High powered rocketry altitude competition to 10,000 or 30,000 feet.</span></li>
-							<li><span>With a payload size of 8.8 pounds, competing rockets are typically 4 to 8 inches in diameter and 8 to 20 ft. long.</span></li>
-							<li><span>Multistage rockets and all chemical propulsion types (solid, liquid, and hybrid) are allowed.</span></li>
-							<li><span>Runs from August 2017 - June 2018</span></li>
-							<li><span>Contact: <a href="Mailto:zac.eller@knights.ucf.edu">Zachary Eller</a></span></li>
-							<li><span><a href="http://www.soundingrocket.org/">http://www.soundingrocket.org/</a></span></li>
 						</ul>
 					</div>
 				</section>

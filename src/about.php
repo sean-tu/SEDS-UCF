@@ -1,4 +1,8 @@
-<?php include_once("header.php"); ?>
+<?php
+    $pageTitle = 'About';
+    include_once("header.php");
+?>
+
 
 	<div id="main">
 		<div class="slide" id="aboutpage">
@@ -11,22 +15,86 @@
 			<div class="content-wrap">
 	
 				<h2>SEDS Mission Statement</h2>
-				<p>SEDS is an independent, student-based organization which promotes the exploration and development of space. SEDS pursues this mission by educating people about the benefits of space, by supporting a network of interested students, by providing an opportunity for members to develop their leadership skills, and inspiring people through our involvement in space-related projects. SEDS believes in a space-faring civilization and that focusing the enthusiasm of young people is the key to our future in space.</p>
+                <p><abbr title="Students for the Exploration and Development of Space">SEDS</abbr> is an independent, student-based organization which promotes the exploration and development of space. SEDS pursues this mission by educating people about the benefits of space, by supporting a network of interested students, by providing an opportunity for members to develop their leadership skills, and inspiring people through our involvement in space-related projects. SEDS believes in a space-faring civilization and that focusing the enthusiasm of young people is the key to our future in space.</p>
 
-				<img class="centered-image" src="images/group_photo_sv17.jpg" alt="SEDS-UCF group photo at SpaceVision 2017"/>
-
+                <figure>
+				    <img class="centered-image" src="images/group_photo_sv17.jpg" alt="SEDS-UCF group photo at SpaceVision 2017"/>
+                    <figcaption>SEDS-UCF members at SpaceVision 2017.</figcaption>
+                </figure>
 
 				<h2>Why Join?</h2>
 				<p>SEDS can provide an organized pathway for you to begin space related projects and give you a chance to break away from the usual class work. You can also use SEDS as a stepping stone to a space-related career. Being actively involved in SEDS can put you in touch with many members of the space, technology, and education community and will allow you to develop the experience necessary to take leadership roles in your future career, whatever that may be. <a href="membership.php">Become a SEDS member now.</a></p>
 
 				<h2>Officers</h2>
-                <div class="tabs">
-                    <button class="tab-link" name='officers-2018' onclick="openTab(event, 'officers-2018')">2018-2019</button>
-                    <button class="tab-link" name='officers-2017' onclick="openTab(event, 'officers-2017')">2017-2018</button>
+                <div class="tabs" id="tabs">
+                    <a class="tab-link tab-active" data-tab='officers-2018' href='#officers-2018'>2018-2019</a>
+                    <a class="tab-link" data-tab='officers-2017' href='#officers-2017'>2017-2018</a>
                 </div>
 
                 <div class="tab-content" id="officers-2018">
-                    <h4>2018 officers here</h4>
+                    <table class="fluid">
+
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Contact</th>
+                        </tr>
+                        </thead>
+
+                        <!-- You can add "class="hidden"" to a table row opening tage <tr> to hide it from the table if the position is currently vacant. This adds the "hidden" class to the div  -->
+
+                        <tbody>
+
+                        <tr>	<!-- President -->
+                            <!-- Name -->	<td>Michael Wooley</td>
+                            <!-- Office -->	<td>President</td>
+                            <!-- Contact --><td><a href="mailto:mgwooley@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <tr>	<!-- Vice President -->
+                            <!-- Name -->	<td>Makayla Peppin</td>
+                            <!-- Office -->	<td>Vice President</td>
+                            <!-- Contact --><td><a href="mailto:mapeppin@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <tr>	<!-- Treasurer -->
+                            <!-- Name -->	<td>Sascha Kline</td>
+                            <!-- Office -->	<td>Treasurer</td>
+                            <!-- Contact --><td><a href="mailto:sokmonkey113@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <tr>	<!-- Secretary -->
+                            <!-- Name -->	<td>Oscar Cruz</td>
+                            <!-- Office -->	<td>Secretary</td>
+                            <!-- Contact --><td><a href="mailto:cruz.oscarm@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <tr>	<!-- Directors of Projects -->
+                            <!-- Name -->	<td>Zac Eller</td>
+                            <!-- Office -->	<td>Director of Projects</td>
+                            <!-- Contact --><td><a href="mailto:zac.eller@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <tr>	<!-- Director of External Affairs -->
+                            <!-- Name -->	<td>Andrew Allen</td>
+                            <!-- Office -->	<td>Director of External Affairs</td>
+                            <!-- Contact --><td><a href="mailto:ajohna@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
+                        </tr>
+
+                        <!--
+                        <tr>
+                                <td>Sean Reedy</td>
+                                <td>Webmaster</td>
+                                <td>Computer Science</td>
+                                <td>Senior</td>
+                                <td><a href="mailto:sean2@knights.ucf.edu"><imgsrc=images/email-icon.png" alt=Email</a></td>
+                        </tr>
+                        -->
+
+                        </tbody>
+
+                    </table>
                 </div>
 
                 <div class="tab-content" id="officers-2017">
@@ -51,7 +119,7 @@
 								<!-- Office -->	<td>President</td>	
 								<!-- Major -->	<td>Aerospace Engineering</td>		
 								<!-- Year -->	<td>Senior</td>			
-								<!-- Contact --><td><a href="mailto:sumayya@knights.ucf.edu">Email</a></td>			
+								<!-- Contact --><td><a href="mailto:sumayya@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 							
 							<tr>	<!-- Vice President -->
@@ -59,7 +127,7 @@
 								<!-- Office -->	<td>Vice President</td>
 								<!-- Major -->	<td>Aerospace Engineering</td>
 								<!-- Year -->	<td>Senior</td>
-								<!-- Contact --><td><a href="mailto:rbaymer@knights.ucf.edu">Email</a></td>
+								<!-- Contact --><td><a href="mailto:rbaymer@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 							
 							<tr>	<!-- Treasurer -->
@@ -67,7 +135,7 @@
 								<!-- Office -->	<td>Treasurer</td>
 								<!-- Major -->	<td>Electrical Engineering</td>
 								<!-- Year -->	<td>Senior</td>
-								<!-- Contact --><td><a href="mailto:enichols25@knights.ucf.edu">Email</a></td>
+								<!-- Contact --><td><a href="mailto:enichols25@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 							
 							<tr>	<!-- Secretary -->
@@ -75,7 +143,7 @@
 								<!-- Office -->	<td>Secretary</td>
 								<!-- Major -->	<td>Mechanical Engineering</td>
 								<!-- Year -->	<td>Senior</td>
-								<!-- Contact --><td><a href="mailto:r.reedy@knights.ucf.edu">Email</a></td>
+								<!-- Contact --><td><a href="mailto:r.reedy@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 
 							<tr>	<!-- Directors of Projects -->
@@ -83,7 +151,7 @@
 								<!-- Office -->	<td>Director of Projects</td>
 								<!-- Major -->	<td>Aerospace Engineering</td>
 								<!-- Year -->	<td>Senior</td>
-								<!-- Contact --><td><a href="mailto:edelia@knights.ucf.edu">Email</a></td>
+								<!-- Contact --><td><a href="mailto:edelia@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 
 							<tr>	<!-- Director of External Affairs -->
@@ -91,7 +159,7 @@
 								<!-- Office -->	<td>Director of External Affairs</td>
 								<!-- Major -->	<td>Aerospace Engineering</td>
 								<!-- Year -->	<td>Sophomore</td>
-								<!-- Contact --><td><a href="mailto:steinzj@knights.ucf.edu">Email</a></td>
+								<!-- Contact --><td><a href="mailto:steinzj@knights.ucf.edu"><img src="images/email-icon.png" alt="Email" title="Send email" class="icon-small"</a></td>
 							</tr>
 
 							<!-- 
@@ -100,7 +168,7 @@
 									<td>Webmaster</td>
 									<td>Computer Science</td>
 									<td>Senior</td>
-									<td><a href="mailto:sean2@knights.ucf.edu">Email</a></td>
+									<td><a href="mailto:sean2@knights.ucf.edu"><imgsrc=images/email-icon.png" alt=Email</a></td>
 							</tr> 
 							-->
 					

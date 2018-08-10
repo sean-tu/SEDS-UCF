@@ -1,0 +1,29 @@
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+figcaption {
+  margin-top: 0;
+  padding: .3em;
+  border-left: 4px solid $gray;
+  background: lighten($gray, 7%);
+  font-style: italic;
+  display: table-caption;
+  caption-side: bottom;
+}
+
+img, video {
+  max-height: 85vh;
+}
+
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  //margin-top: 2em;
+  max-width: 100%;
+  height: auto;
+}

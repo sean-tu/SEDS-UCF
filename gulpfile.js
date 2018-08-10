@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync');
 var php = require('gulp-connect-php');
 var uglify = require('gulp-uglify');
@@ -36,7 +37,7 @@ const paths = {
     },
     fonts: {
         src: source + '/fonts/**/*',
-        dest: build + '/fonts'
+        dest: source + '/fonts'
     }
 };
 
@@ -67,7 +68,15 @@ gulp.task('images', function() {
 gulp.task('fonts', function() {
 	return gulp.src(paths.fonts.src)
 	.pipe(gulp.dest(paths.fonts.dest))
-})
+	// gulp.src(fontAwesome.fonts)
+	// 	.pipe(gulp.dest(paths.fonts.dest));
+});
+
+// Font Awesome!
+// gulp.task('move-components-fontawesome', function() {
+//     gulp.src('./node_modules/font-awesome/scss/**/*')
+//         .pipe(gulp.dest(paths.fonts.dest + '/font-awesome'));
+// });
 
 gulp.task('useref', function() {
 	return gulp.src(source + '/*.+(html|php)')
@@ -79,12 +88,12 @@ gulp.task('useref', function() {
 
 gulp.task('js', function() {
 	gulp.src([
-		'node_modules/jquery/dist/jquery.js',
+		// 'node_modules/jquery/dist/jquery.js',
 		paths.scripts.src
 	])
 		.pipe(uglify())
 		.pipe(concat('script.js'))
-		.pipe(gulp.dest('src/js'))
+		.pipe(gulp.dest(paths.scripts.dest))
 });
 
 // BROWSER TESTING TASKS
@@ -105,7 +114,7 @@ gulp.task('php', function() {
 	})
 })
 
-gulp.task('browser-sync', ['php'], function() {
+gulp.task('browser-sync', function() {
     server.init({
         proxy: 'http://localhost:80/SEDS/src/index.php',
         open: true,
@@ -114,22 +123,18 @@ gulp.task('browser-sync', ['php'], function() {
         browser: 'chrome',
         port: 80
     });
-})
-// 	// browserSync.watch(paths.scss.src, function(event, file) {
-// 	// 	if (event == "change") {}
-// 	// 	browserSync.reload();
-// 	// });
-// 	// gulp.watch(paths.php.src).on('change', browserSync.reload);
-// })
+});
 
 gulp.task('sass', function() {
 	return gulp.src(paths.scss.src)
-	.pipe(sass())
+	.pipe(sourcemaps.init())
+	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+	.pipe(sourcemaps.write())
 	.pipe(gulp.dest(paths.scss.dest))
-})
+});
 
 gulp.task('watch', ['browser-sync'], function() {
-	gulp.watch(paths.scss.src, ['sass', stream]);
+	gulp.watch(paths.scss.src, ['sass', reload]);
 	gulp.watch(paths.php.src).on('change', reload);
 	// gulp.watch('app/**/*.php', ['reload']);
 	gulp.watch(paths.scripts.src, ['js', reload]);

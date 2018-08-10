@@ -15,8 +15,8 @@ $light-background: #f5f5f5;
 $dark-background: #181c1f;
 $primary: #ffc904;
 $accent: #ff8300;
-$accent: pink;
 $light-accent: #1c65A1;
+$gray: #ddd;
 
 // Page sizing
 $max-width: 1080px;
@@ -33,6 +33,28 @@ $line-height: 1.7;
 
 @mixin transition {
   transition: all .2s ease-in-out;
+}
+
+//
+// Breakpoints
+//
+@mixin breakpoint($size) {
+  @if $size == xs {
+    @media (max-width: 37.5em)  { @content ; }
+  }
+  @else if $size == sm {
+    @media (max-width: 37.5em)  { @content ; }
+  }
+  @else if $size == md {
+    @media (max-width: 50em) { @content ; }
+  }
+  @else if $size == lg {
+    @media (max-width: 64em) { @content ; }
+  }
+  @else if $size == xl {
+    @media (max-width: 70em) { @content ; }
+  }
+
 }
 
 // Utils

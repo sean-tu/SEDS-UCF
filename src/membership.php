@@ -47,12 +47,19 @@
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="SWPK9SCV5WA5G">
 			<table>
-			<tr><td><input type="hidden" name="on0" value="Membership Options (w/ PayPal Fee)">Membership Options (w/ PayPal Fee)</td></tr><tr><td><select name="os0">
-				<option value="New Member">New Member $20.91 USD</option>
-				<option value="New Member w/ Shirt">New Member w/ Shirt $31.20 USD</option>
-				<option value="Returning Member">Returning Member $15.76 USD</option>
-				<option value="Returning Member w/ Shirt">Returning Member w/ Shirt $26.06 USD</option>
-			</select> </td></tr>
+                <thead>
+                <tr>
+                    <th><input type="hidden" name="on0" value="Membership Options (w/ PayPal Fee)">Membership Options (w/ PayPal Fee)</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td><select name="os0">
+                        <option value="New Member">New Member: $20.91 USD</option>
+                        <option value="New Member w/ Shirt">New Member w/ Shirt: $31.20 USD</option>
+                        <option value="Returning Member">Returning Member: $15.76 USD</option>
+                        <option value="Returning Member w/ Shirt">Returning Member w/ Shirt: $26.06 USD</option>
+                        </select></td>
+                </tr>
 			</table>
 			<input type="hidden" name="currency_code" value="USD">
 			<input type="image" id="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
